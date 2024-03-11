@@ -8,12 +8,6 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.shinta.mynavigation.databinding.FragmentCategoryBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-
 class CategoryFragment : Fragment() {
 
     private var _binding: FragmentCategoryBinding? = null
@@ -35,10 +29,10 @@ class CategoryFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnCategoryLifestyle.setOnClickListener { view ->
-            val mBundle = Bundle()
-            mBundle.putString(EXTRA_NAME, "Lifestyle")
-            mBundle.putLong(EXTRA_STOCK, 7)
-            view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment, mBundle)
+            val toDetailCategoryFragment = CategoryFragmentDirections.actionCategoryFragmentToDetailCategoryFragment()
+            toDetailCategoryFragment.name = "Lifestyle"
+            toDetailCategoryFragment.stock = 7
+            view.findNavController().navigate(toDetailCategoryFragment)
         }
     }
 

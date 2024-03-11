@@ -41,7 +41,7 @@
             app:argType="string"
             android:defaultValue="default name" />
         <argument
-            android:name="stok"
+            android:name="stock"
             app:argType="long"
             android:defaultValue="0L" />
     </fragment>
