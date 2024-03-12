@@ -1,0 +1,43 @@
+<resources>
+<string name="app_name">AstroApp</string>
+
+<string name="stars_name">List of Stars</string>
+<string name="description">Description</string>
+<string-array name="star_name">
+    <item>Alpheratz</item>
+    <item>Altair</item>
+    <item>Antares</item>
+    <item>Arcturus</item>
+    <item>Beta Ceti</item>
+    <item>Betelgeuse</item>
+    <item>Canopus</item>
+    <item>Capella</item>
+    <item>Rigel</item>
+    <item>Theta Scorpii</item>
+</string-array>
+<string-array name="star_description">
+    <item>Alpheratz, or Alpha Andromedae, is a bright star 97 light-years from the Sun and is the brightest star in the constellation of Andromeda when Beta Andromedae undergoes its periodical dimming. Immediately northeast of the constellation of Pegasus, it is the upper left star of the Great Square of Pegasus. </item>
+    <item>Altair is the brightest star in the constellation of Aquila and the twelfth-brightest star in the night sky. It has the Bayer designation Alpha Aquilae, which is Latinised from α Aquilae and abbreviated Alpha Aql or α Aql.</item>
+    <item>Antares is the brightest star in the constellation of Scorpius. It has the Bayer designation α Scorpii, which is Latinised to Alpha Scorpii. Often referred to as "the heart of the scorpion", Antares is flanked by σ Scorpii and τ Scorpii near the center of the constellation.</item>
+    <item>Arcturus is the brightest star in the northern constellation of Boötes. With an apparent visual magnitude of −0.05, it is the fourth-brightest star in the night sky, and the brightest in the northern celestial hemisphere.</item>
+    <item>Beta Ceti, officially named Diphda, is the brightest star in the constellation of Cetus. Although designated \'beta', it is actually brighter than the 'alpha' star in the constellation, Menkar, by half a magnitude. </item>
+    <item>Betelgeuse is a red supergiant star in the constellation of Orion. It is usually the tenth-brightest star in the night sky and, after Rigel, the second-brightest in its constellation.</item>
+    <item>Canopus is the brightest star in the southern constellation of Carina and the second-brightest star in the night sky. It is also designated α Carinae, which is romanized to Alpha Carinae. With a visual apparent magnitude of −0.74, it is outshone only by Sirius.</item>
+    <item>Capella is the brightest star in the northern constellation of Auriga. It has the Bayer designation α Aurigae, which is Latinised to Alpha Aurigae and abbreviated Alpha Aur or α Aur.</item>
+    <item>Rigel is a blue supergiant star in the constellation of Orion. It has the Bayer designation β Orionis, which is Latinized to Beta Orionis and abbreviated Beta Ori or β Ori.</item>
+    <item>Theta Scorpii is a binary star in the southern zodiac constellation of Scorpius. The apparent visual magnitude of this star is +1.87, making it readily visible to the naked eye and one of the brightest stars in the night sky.</item>
+
+</string-array>
+<integer-array name="star_photo">
+    <item>@drawable/alpheratz</item>
+    <item>@drawable/altair</item>
+    <item>@drawable/antares</item>
+    <item>@drawable/arcturus</item>
+    <item>@drawable/beta_ceti</item>
+    <item>@drawable/betelgeuse</item>
+    <item>@drawable/canopus</item>
+    <item>@drawable/capella</item>
+    <item>@drawable/rigel</item>
+    <item>@drawable/theta_scorpii</item>
+</integer-array>
+</resources>
