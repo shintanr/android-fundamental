@@ -13,8 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MyNavigation"
+rootProject.name = "Networking"
 include(":app")
-include(":app")
-include(":app")
-include(":app")
+ 
