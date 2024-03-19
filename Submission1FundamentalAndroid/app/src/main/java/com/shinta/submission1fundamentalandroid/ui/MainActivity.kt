@@ -1,7 +1,8 @@
-package com.shinta.submission1fundamentalandroid
+package com.shinta.submission1fundamentalandroid.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.shinta.submission1fundamentalandroid.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
